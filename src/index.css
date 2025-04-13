@@ -10,7 +10,7 @@
   --color-nav: #c6eedc;
   --color-orbtn: #FFC31D;
   --color-mowana-dark: #136868;
-  --color-mowana-light: #82FFD929;
+  --color-mowana-light: #146C6C;
 }
 
 body {
@@ -27,4 +27,8 @@ body {
 
 .custom-slider .slick-dots {
   bottom: -50px; /* نزّلها 30px */
+}
+
+.s3{
+  height: 550px;
 }

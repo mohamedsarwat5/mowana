@@ -55,7 +55,7 @@ export default function Services() {
     }
     return (
         <div className="slider-container mx-auto my-20 p-12 md:px-[120px] relative">
-            <h2 className="text-center font-bold font-[quando] text-mowana-green text-4xl mb-8">Our Services</h2>
+            <h2 className="text-center font-bold font-[quando] text-mowana text-4xl mb-8 uppercase">Our Services</h2>
             <Slider {...settings} className="custom-slider">
                 <div>
                     <img src={spa} className="h-48 w-72 mx-auto rounded-4xl  object-cover object-top" alt="" />
@@ -96,7 +96,7 @@ export default function Services() {
             </Slider>
 
             <div className="w-full md:w-8/12 mx-auto mt-20 text-center text-[20px] text-mowana">
-                <p className="">At Mowana hotel, we pride ourselves on offering a range of premium services designed to provide the ultimate in comfort and relaxation. Unwind at our luxurious spa with personalized treatments, or enjoy the rejuvenating heat of the sauna. Take in stunning views from our serene terrace, or relax in our elegant lounge area. Our expert massage therapists are here to ease your stress, while daily housekeeping ensures a spotless, welcoming environment throughout your stay. Whether you're here for leisure or business, our services are tailored to meet your every need.</p>
+                <p className="">At Mowana Hotel, we offer premium services for your comfort and relaxation — from spa treatments and soothing saunas to serene terraces, elegant lounges, and expert massages. Daily housekeeping ensures a clean, welcoming stay tailored to your every need.</p>
             </div>
         </div>
     );

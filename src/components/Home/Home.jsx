@@ -3,6 +3,7 @@ import png from '../../assets/images/png.png'
 import photo from '../../assets/images/photo.png'
 import About from '../About/About'
 import Services from '../Services/Services'
+import Suites from '../Suites/Suites'
 
 
 export default function Home() {
@@ -22,7 +23,7 @@ export default function Home() {
 
             <About></About>
             <Services></Services>
-
+        <Suites></Suites>
         </>
     )
 }
