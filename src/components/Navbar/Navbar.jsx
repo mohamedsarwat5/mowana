@@ -29,7 +29,7 @@ export default function Navbar() {
             <div className="max-w-screen-xl flex flex-wrap items-center  justify-between mx-auto p-4">
                 <Link><img to={'/'} src={logo} className='h-18' alt="" /></Link>
                 <button onClick={handleNavBar} type="button" className=" text-mowana-green md:hidden">
-                    <i className={`${isOpen? 'fa-xmark' : 'fa-bars'} fa-solid  text-[22px]`}></i>
+                    <i className={`${isOpen? 'fa-xmark' : 'fa-bars'} fa-solid  text-[22px] text-mowana`}></i>
                 </button>
 
                 <div className={`${isOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`}>
