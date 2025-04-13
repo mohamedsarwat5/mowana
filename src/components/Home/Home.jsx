@@ -1,5 +1,6 @@
 import React from 'react'
 import png from '../../assets/images/png.png'
+import photo from '../../assets/images/photo.png'
 
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
                 </div>
 
                 <div className=' w-full md:w-8/12  '>
-                    <img src={png} />
+                    <img src={photo} />
                 </div>
             </section>
 
