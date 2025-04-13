@@ -24,3 +24,7 @@ body {
 .noor {
   color: #1DA35A2E;
 }
+
+.custom-slider .slick-dots {
+  bottom: -50px; /* نزّلها 30px */
+}

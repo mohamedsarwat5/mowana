@@ -2,6 +2,7 @@ import React from 'react'
 import png from '../../assets/images/png.png'
 import photo from '../../assets/images/photo.png'
 import About from '../About/About'
+import Services from '../Services/Services'
 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
             </section>
 
             <About></About>
+            <Services></Services>
 
         </>
     )
