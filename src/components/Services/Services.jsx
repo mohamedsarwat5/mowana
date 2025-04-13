@@ -23,7 +23,7 @@ export default function Services() {
         infinite: true,
         autoplay: true,
         dots: true,
-
+        pauseOnHover: false,
         responsive: [
             {
                 breakpoint: 1024,
@@ -31,7 +31,8 @@ export default function Services() {
                     slidesToShow: 3,
                     slidesToScroll: 3,
                     infinite: true,
-                    dots: true
+                    dots: true,
+                    pauseOnHover: false,
                 }
             },
             {
@@ -39,7 +40,8 @@ export default function Services() {
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
-                    initialSlide: 2
+                    initialSlide: 2,
+                    pauseOnHover: false,
                 }
             },
             {
@@ -50,6 +52,7 @@ export default function Services() {
                     speed: 300,
                     infinite: true,
                     autoplay: true,
+                    pauseOnHover: false,
                 }
             }
         ]
@@ -60,7 +63,7 @@ export default function Services() {
             <h2 className="text-center font-bold font-[quando] text-mowana text-4xl mb-8 uppercase">Our Services</h2>
             <Slider {...settings} className="custom-slider">
                 <div>
-                    <img src={spa} className="h-48 w-72 mx-auto rounded-4xl  object-cover object-top" alt="" />
+                    <img src={spa} className="h-48 w-72 mx-auto rounded-4xl object-cover object-top" alt="" />
                     <h3 className="font-[poppins] text-mowana-green text-center">Spa</h3>
                 </div>
                 <div>

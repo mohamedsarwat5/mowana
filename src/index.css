@@ -26,9 +26,11 @@ body {
 }
 
 .custom-slider .slick-dots {
-  bottom: -50px; /* نزّلها 30px */
+  bottom: -50px;
+  /* نزّلها 30px */
 }
 
-.s3{
+.s3 {
   height: 550px;
 }
+
