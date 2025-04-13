@@ -4,11 +4,13 @@ import photo from '../../assets/images/photo.png'
 import About from '../About/About'
 import Services from '../Services/Services'
 import Suites from '../Suites/Suites'
+import Btn from '../Btn/Btn'
 
 
 export default function Home() {
     return (
         <>
+        <Btn></Btn>
             <section className='flex md:flex-row flex-col-reverse items-center px-10 md:px-[120px] md:pt-32 py-[150px]   gap-14'>
 
                 <div className='w-full md:w-4/12 flex flex-col gap-5 md:gap-8'>

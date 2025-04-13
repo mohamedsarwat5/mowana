@@ -3,8 +3,10 @@ import s1 from '../../assets/images/s1.png'
 import s2 from '../../assets/images/s2.png'
 import s3 from '../../assets/images/s3.png'
 import s4 from '../../assets/images/s4.png'
+import Btn from '../Btn/Btn'
 export default function Suites() {
-    return (
+    return (<>
+    <Btn></Btn>
         <section className='mx-auto my-20 p-12 md:px-[120px]'>
             <h2 className="text-center font-bold font-[quando] capitalize text-mowana text-4xl mb-8">SUITES</h2>
 
@@ -27,5 +29,5 @@ export default function Suites() {
             </div >
 
         </section>
-    )
+        </>  )
 }
