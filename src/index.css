@@ -9,17 +9,18 @@
   --color-mowana-green: #093E2E;
   --color-nav: #c6eedc;
   --color-orbtn: #FFC31D;
-  --color-mowana-dark:#136868;
-  --color-mowana-light:#82FFD929;
+  --color-mowana-dark: #136868;
+  --color-mowana-light: #82FFD929;
 }
 
-body{
+body {
   background-image: url("assets/images/light-patten.svg");
 }
 
-.active{
+.active {
   color: #146C6C;
 }
-.noor{
+
+.noor {
   color: #1DA35A2E;
 }
