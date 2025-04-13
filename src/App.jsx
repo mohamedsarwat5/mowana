@@ -7,6 +7,7 @@ import Services from './components/Services/Services'
 import Contact from './components/Contact/Contact'
 import Suites from './components/Suites/Suites'
 import Layout from './components/Layout/Layout'
+import About from './components/About/About'
 
 export default function App() {
 
@@ -17,6 +18,7 @@ export default function App() {
         { path: 'rooms', element: <Rooms></Rooms> },
         { path: 'book', element: <Book></Book> },
         { path: 'services', element: <Services></Services> },
+        { path: 'about', element: <About></About> },
         { path: 'contact', element: <Contact></Contact> },
         { path: 'suites', element: <Suites></Suites> },
       ]

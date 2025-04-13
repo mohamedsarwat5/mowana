@@ -25,7 +25,7 @@ export default function Navbar() {
 
 
 
-        <nav className="bg-nav opacity-80  sticky top-0 left-0 w-full z-50">
+        <nav className="bg-nav opacity-80  fixed top-0 left-0 w-full z-50">
             <div className="max-w-screen-xl flex flex-wrap items-center  justify-between mx-auto p-4">
                 <Link><img to={'/'} src={logo} className='h-18' alt="" /></Link>
                 <button onClick={handleNavBar} type="button" className=" text-mowana-green md:hidden">
@@ -42,6 +42,9 @@ export default function Navbar() {
                         </li>
                         <li>
                             <NavLink to={'/services'}  onClick={() => setIsOpen(false)} className={`font-[poppins] py-2 text-mowana-green`}>Services</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to={'/about'}  onClick={() => setIsOpen(false)} className={`font-[poppins] py-2 text-mowana-green`}>About Us</NavLink>
                         </li>
                         <li>
                             <NavLink to={'/suites'}  onClick={() => setIsOpen(false)} className={`font-[poppins] py-2 text-mowana-green`}>Suites</NavLink>
