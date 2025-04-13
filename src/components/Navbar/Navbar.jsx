@@ -27,8 +27,7 @@ export default function Navbar() {
 
         <nav className="bg-[#c6eedc] opacity-80 border-gray-200 dark:bg-mowana-dark fixed top-0 left-0 w-full ">
             <div className="max-w-screen-xl flex flex-wrap items-center  justify-between mx-auto p-4">
-                <Link><img to={'/'} src={logo} alt="" /></Link>
-                {/* <i onClick={handledarkmode} className="fa-solid fa-moon text-mowana-green text-[22px] ms-auto"></i> */}
+                <Link><img to={'/'} src={logo} className='h-18' alt="" /></Link>
                 <button onClick={handleNavBar} type="button" className=" text-mowana-green md:hidden">
                     <i className={`${isOpen? 'fa-xmark' : 'fa-bars'} fa-solid  text-[22px]`}></i>
                 </button>
@@ -36,22 +35,22 @@ export default function Navbar() {
                 <div className={`${isOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`}>
                     <ul className="font-medium text-center flex flex-col md:flex-row p-4 md:p-0 mt-4  gap-9  md:mt-0">
                         <li>
-                            <NavLink to={'/'} className=" font-[poppins] py-2 text-mowana-green ">Home</NavLink>
+                            <NavLink to={'/'}   onClick={() => setIsOpen(false)} className={`font-[poppins] py-2 text-mowana-green`}>Home</NavLink>
                         </li>
                         <li>
-                            <NavLink to={'/rooms'} className=" font-[poppins] py-2  text-mowana-green ">Rooms</NavLink>
+                            <NavLink to={'/rooms'}  onClick={() => setIsOpen(false)} className={`font-[poppins] py-2 text-mowana-green`}>Rooms</NavLink>
                         </li>
                         <li>
-                            <NavLink to={'/services'} className=" font-[poppins] py-2  text-mowana-green ">Services</NavLink>
+                            <NavLink to={'/services'}  onClick={() => setIsOpen(false)} className={`font-[poppins] py-2 text-mowana-green`}>Services</NavLink>
                         </li>
                         <li>
-                            <NavLink to={'/suites'} className=" font-[poppins] py-2  text-mowana-green ">Suites</NavLink>
+                            <NavLink to={'/suites'}  onClick={() => setIsOpen(false)} className={`font-[poppins] py-2 text-mowana-green`}>Suites</NavLink>
                         </li>
                         <li>
-                            <NavLink to={'/book'} className=" font-[poppins] py-2  text-mowana-green ">Book</NavLink>
+                            <NavLink to={'/book'}  onClick={() => setIsOpen(false)} className={`font-[poppins] py-2 text-mowana-green`}>Book</NavLink>
                         </li>
                         <li>
-                            <NavLink to={'/contact'} className=" font-[poppins] py-2  text-mowana-green ">Contact Us</NavLink>
+                            <NavLink to={'/contact'}  onClick={() => setIsOpen(false)} className={`font-[poppins] py-2 text-mowana-green`}>Contact Us</NavLink>
                         </li>
 
                     </ul>
