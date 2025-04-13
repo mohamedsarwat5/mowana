@@ -30,7 +30,7 @@ export default function Navbar() {
                 <Link><img to={'/'} src={logo} alt="" /></Link>
                 {/* <i onClick={handledarkmode} className="fa-solid fa-moon text-mowana-green text-[22px] ms-auto"></i> */}
                 <button onClick={handleNavBar} type="button" className=" text-mowana-green md:hidden">
-                    <i className="fa-solid fa-bars text-[22px]"></i>
+                    <i className={`${isOpen? 'fa-xmark' : 'fa-bars'} fa-solid  text-[22px]`}></i>
                 </button>
 
                 <div className={`${isOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`}>
