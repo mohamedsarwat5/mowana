@@ -25,8 +25,8 @@ export default function Navbar() {
 
 
 
-        <nav className="bg-[#c6eedc] border-gray-200 dark:bg-mowana-dark ">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <nav className="bg-[#c6eedc] border-gray-200 dark:bg-mowana-dark fixed top-0 left-0 w-full ">
+            <div className="max-w-screen-xl flex flex-wrap !items-center h-[100px] justify-between mx-auto p-4">
                 <Link><img to={'/'} src={logo} alt="" /></Link>
                 {/* <i onClick={handledarkmode} className="fa-solid fa-moon text-mowana-green text-[22px] ms-auto"></i> */}
                 <button onClick={handleNavBar} type="button" className=" text-mowana-green md:hidden">
