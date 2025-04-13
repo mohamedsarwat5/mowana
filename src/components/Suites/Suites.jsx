@@ -5,7 +5,7 @@ import s3 from '../../assets/images/s3.png'
 import s4 from '../../assets/images/s4.png'
 export default function Suites() {
     return (
-        <section className='mx-auto px-12 pt-32 md:px-[120px]'>
+        <section className='mx-auto my-20 p-12 md:px-[120px]'>
             <h2 className="text-center font-bold font-[quando] capitalize text-mowana text-4xl mb-8">SUITES</h2>
 
             <div className='flex flex-col md:flex-row  justify-between gap-4 '>
