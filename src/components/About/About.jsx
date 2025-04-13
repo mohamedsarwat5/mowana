@@ -5,7 +5,7 @@ import img2 from '../../assets/images/about2.png'
 
 export default function About() {
     return (
-        <section className=' px-10 md:px-[120px] py-28 flex flex-col '>
+        <section className=' px-10 md:px-[120px] pb-12 mt-24 flex flex-col '>
             <h2 className='text-center text-4xl text-mowana font-bold font-[Quando] mb-10'>About Us</h2>
             <div className='flex flex-col lg:flex-row items-center justify-between gap-5 md:gap-0'>
                 <img src={img1} className='md:w-5/12 rounded-4xl' alt="" />
