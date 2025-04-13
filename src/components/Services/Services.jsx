@@ -54,7 +54,7 @@ export default function Services() {
         ]
     }
     return (
-        <div className="slider-container mx-auto my-20 p-12 md:px-[120px] relative">
+        <div className="slider-container mx-auto mt-32 md:px-[120px] relative">
             <h2 className="text-center font-bold font-[quando] text-mowana text-4xl mb-8 uppercase">Our Services</h2>
             <Slider {...settings} className="custom-slider">
                 <div>

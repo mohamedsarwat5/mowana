@@ -5,8 +5,8 @@ import img2 from '../../assets/images/about2.png'
 
 export default function About() {
     return (
-        <section className='  md:px-[120px] pb-12  flex flex-col  mx-auto my-20 p-12'>
-            <h2 className='text-center text-4xl text-mowana font-bold font-[Quando] mb-10 uppercase'>About Us</h2>
+        <section className='  md:px-[120px]  flex flex-col  mx-auto pt-32 '>
+            <h2 className='text-center text-4xl text-mowana font-bold font-[Quando]  mb-10 uppercase'>About Us</h2>
             <div className='flex flex-col lg:flex-row items-center justify-between gap-5 md:gap-0'>
                 <img src={img1} className='md:w-5/12 rounded-4xl' alt="" />
                 <p className='md:w-6/12 font-[poppins] text-center text-mowana'>
