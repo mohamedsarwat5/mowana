@@ -37,7 +37,7 @@ export default function Rooms() {
             <p>Cozy modern room with comfort and essentials.</p>
             <span>300k</span>
           </div>
-          <span className='text-center px-9 py-3  text-mowana !border !border-mowana hover:!bg-[#146C6C] hover:text-white duration-200 cursor-pointer mt-3 w-10/12 mx-auto  ' >See More</span>
+          <span className='text-center px-9 py-3  text-mowana !border !border-mowana rounded-2xl spa hover:text-white duration-200 cursor-pointer mt-3 w-10/12 mx-auto  ' >See More</span>
         </motion.div>
 
         <motion.div
@@ -51,7 +51,7 @@ export default function Rooms() {
             <p>Cozy modern room with stunning mountain view.</p>
             <span>300k</span>
           </div>
-          <span className='text-center px-9 py-3  text-mowana !border !border-mowana hover:!bg-[#146C6C] hover:text-white duration-200 cursor-pointer mt-3 w-10/12 mx-auto  ' >See More</span>
+          <span className='text-center px-9 py-3  text-mowana !border !border-mowana rounded-2xl spa hover:text-white duration-200 cursor-pointer mt-3 w-10/12 mx-auto  ' >See More</span>
         </motion.div>
 
         <motion.div
@@ -65,7 +65,7 @@ export default function Rooms() {
             <p>Cozy modern room with peaceful forest view.</p>
             <span>300k</span>
           </div>
-          <span className='text-center px-9 py-3  text-mowana !border !border-mowana hover:!bg-[#146C6C] hover:text-white duration-200 cursor-pointer mt-3 w-10/12 mx-auto  ' >See More</span>
+          <span className='text-center px-9 py-3  text-mowana !border !border-mowana rounded-2xl spa hover:text-white duration-200 cursor-pointer mt-3 w-10/12 mx-auto  ' >See More</span>
         </motion.div>
 
         <motion.div
@@ -79,7 +79,7 @@ export default function Rooms() {
             <p>Cozy modern room with peaceful forest view.</p>
             <span>300k</span>
           </div>
-          <span className='text-center px-9 py-3  text-mowana !border !border-mowana hover:!bg-[#146C6C] hover:text-white duration-200 cursor-pointer mt-3 w-10/12 mx-auto  ' >See More</span>
+          <span className='text-center px-9 py-3  text-mowana !border !border-mowana rounded-2xl spa hover:text-white duration-200 cursor-pointer mt-3 w-10/12 mx-auto  ' >See More</span>
         </motion.div>
 
 
