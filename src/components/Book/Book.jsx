@@ -20,8 +20,8 @@ export default function Book() {
         <motion.h2
           initial={{ scale: .5, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}
-          transition={{duration:.5}}
-          className="text-center font-bold font-[quando] uppercase text-mowana text-4xl mb-8">books</motion.h2>
+          transition={{ duration: .5 }}
+          className="will-change-transform  will-change-opacity text-center font-bold font-[quando] uppercase text-mowana text-4xl mb-8">books</motion.h2>
 
         <div className='flex flex-col lg:flex-row items-center gap-y-7 md:w-7/12 mx-auto'>
 
@@ -34,7 +34,7 @@ export default function Book() {
               ease: 'easeIn',
               duration: 1,
             }}
-            className='lg:w-7/12'>
+            className='lg:w-7/12 will-change-transform  will-change-opacity'>
             <img src={book} className='w-[350px] !h-[300px] lg:!h-[400px] object-cover rounded-4xl' alt="" />
           </motion.div>
 
@@ -48,7 +48,7 @@ export default function Book() {
               ease: 'easeIn',
               duration: 1,
             }}
-            className='lg:w-5/12 flex flex-col font-[poppins] px-6'>
+            className='will-change-transform  will-change-opacity lg:w-5/12 flex flex-col font-[poppins] px-6'>
             <h2 className='font-semibold text-2xl'>Over view</h2>
             <h3 className='capitalize mb-2 !text-[18px]'>front view</h3>
             <p>Cozy modern room with comfort and essentials.</p>

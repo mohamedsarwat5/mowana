@@ -23,7 +23,7 @@ export default function Suites() {
                     ease: 'easeIn',
                     duration: 1,
                 }}
-                className="text-center font-bold font-[quando] capitalize text-mowana text-4xl mb-8">SUITES</motion.h2>
+                className="will-change-transform  will-change-opacity text-center font-bold font-[quando] capitalize text-mowana text-4xl mb-8">SUITES</motion.h2>
 
             <div className='flex flex-col lg:flex-row   justify-between gap-4 '>
 
@@ -33,7 +33,7 @@ export default function Suites() {
                             initial={{ opacity: 0, scale: .5 }}
                             whileInView={{ opacity: 1, scale: 1 }}
                             transition={{ duration: .6, ease: 'easeInOut' }}
-                            src={s1} className='lg:w-6/12 rounded-4xl object-cover ' loading='lazy' alt="" />
+                            src={s1} className='will-change-transform  will-change-opacity lg:w-6/12 rounded-4xl object-cover ' loading='lazy' alt="" />
                         <motion.img
                             initial={{ opacity: 0, scale: .5 }}
                             whileInView={{ opacity: 1, scale: 1 }}
@@ -45,7 +45,7 @@ export default function Suites() {
                             initial={{ opacity: 0, scale: .5 }}
                             whileInView={{ opacity: 1, scale: 1 }}
                             transition={{ duration: .6, ease: 'easeInOut' }}
-                            src={s3} loading='lazy' className=' relative lg:left-2 w-12/12 h-72 object-cover mx-auto rounded-4xl' alt="" />
+                            src={s3} loading='lazy' className='will-change-transform  will-change-opacity relative lg:left-2 w-12/12 h-72 object-cover mx-auto rounded-4xl' alt="" />
                     </div>
                 </div>
 
@@ -54,7 +54,7 @@ export default function Suites() {
                         initial={{ opacity: 0, scale: .5 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         transition={{ duration: .6, ease: 'easeInOut' }}
-                        src={s4} loading='lazy' className=' rounded-4xl s3 lg:w-[500px] lg:!h-[550px] object-cover' alt="" />
+                        src={s4} loading='lazy' className='will-change-transform  will-change-opacity rounded-4xl s3 lg:w-[500px] lg:!h-[550px] object-cover' alt="" />
                 </div>
 
             </div >

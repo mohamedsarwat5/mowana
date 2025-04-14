@@ -22,7 +22,7 @@ export default function Rooms() {
         initial={{ opacity: 0, scale: .5 }}
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: .5 }}
-        className='text-center text-4xl text-mowana font-bold font-[Quando]  mb-10 uppercase'>rooms</motion.h2>
+        className='will-change-transform  will-change-opacity text-center text-4xl text-mowana font-bold font-[Quando]  mb-10 uppercase'>rooms</motion.h2>
 
       <div className='flex flex-col lg:flex-row gap-7'>
 
@@ -33,7 +33,7 @@ export default function Rooms() {
           className='lg:w-3/12 flex  flex-col font-[poppins] '>
           <img src={r1} className='!h-[350px] rounded-4xl mb-3 object-cover ' loading='lazy' alt="" />
           <h3 className='px-7 capitalize  !text-[19px]'>over view</h3>
-          <div className='px-7 flex justify-between items-center gap-1 mt-3 '>
+          <div className='will-change-transform  will-change-opacity px-7 flex justify-between items-center gap-1 mt-3 '>
             <p>Cozy modern room with comfort and essentials.</p>
             <span>300k</span>
           </div>
@@ -44,7 +44,7 @@ export default function Rooms() {
           initial={{ opacity: 0, scale: .5 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: .5 }}
-          className='lg:w-3/12 flex  flex-col font-[poppins] '>
+          className='will-change-transform  will-change-opacity lg:w-3/12 flex  flex-col font-[poppins] '>
           <img src={r2} className='!h-[350px] rounded-4xl mb-3 object-cover' loading='lazy' alt="" />
           <h3 className='px-7 capitalize  !text-[19px]'>mountain view</h3>
           <div className='px-7 flex justify-between items-center gap-1 mt-3 '>
@@ -58,7 +58,7 @@ export default function Rooms() {
           initial={{ opacity: 0, scale: .5 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: .5 }}
-          className='lg:w-3/12 flex  flex-col font-[poppins] '>
+          className='will-change-transform  will-change-opacity lg:w-3/12 flex  flex-col font-[poppins] '>
           <img src={r3} className='!h-[350px] rounded-4xl mb-3 object-cover' loading='lazy' alt="" />
           <h3 className='px-7 capitalize  !text-[19px]'>sea view</h3>
           <div className='px-7 flex justify-between items-center gap-1 mt-3 '>
@@ -72,7 +72,7 @@ export default function Rooms() {
           initial={{ opacity: 0, scale: .5 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: .5 }}
-          className='lg:w-3/12 flex  flex-col font-[poppins] '>
+          className='will-change-transform  will-change-opacity lg:w-3/12 flex  flex-col font-[poppins] '>
           <img src={r4} className='!h-[350px] rounded-4xl mb-3 object-cover' loading='lazy' alt="" />
           <h3 className='px-7 capitalize  !text-[19px]'>forest view</h3>
           <div className='px-7 flex justify-between items-center gap-1 mt-3 '>

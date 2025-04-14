@@ -15,7 +15,7 @@ export default function About() {
                 initial={{ opacity: 0, scale: .5 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: .5 }}
-                className='text-center text-4xl text-mowana font-bold font-[Quando]  mb-10 uppercase'>About Us</motion.h2>
+                className='will-change-transform  will-change-opacity text-center text-4xl text-mowana font-bold font-[Quando]  mb-10 uppercase'>About Us</motion.h2>
             <div className='flex flex-col md:flex-row items-center justify-between gap-5 lg:gap-0'>
                 <motion.img
                     initial={{ x: 100, opacity: 0 }}
@@ -26,7 +26,7 @@ export default function About() {
                         ease: 'easeIn',
                         duration: 1,
                     }}
-                    src={img1} className='md:w-5/12 rounded-4xl'  alt="" />
+                    src={img1} className='will-change-transform  will-change-opacity md:w-5/12 rounded-4xl'  alt="" />
                 <motion.p
                     initial={{ x: -100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
@@ -37,7 +37,7 @@ export default function About() {
                         duration: 1,
                     }}
 
-                    className='md:w-6/12 font-[poppins] text-center text-mowana'>
+                    className='will-change-transform  will-change-opacity md:w-6/12 font-[poppins] text-center text-mowana'>
                     Welcome to Mowana Hotel, where comfort meets convenience. Located in the heart of Egypt, we offer a relaxing and memorable stay with top-notch amenities, exceptional service, and a warm, inviting atmosphere. Whether you're here for business or leisure, our friendly staff is dedicated to making your visit enjoyable and stress-free.
                 </motion.p>
             </div>
@@ -51,7 +51,7 @@ export default function About() {
                         ease: 'easeIn',
                         duration: 1,
                     }}
-                    className='md:w-6/12 font-[poppins] text-center text-mowana'>
+                    className='will-change-transform  will-change-opacity md:w-6/12 font-[poppins] text-center text-mowana'>
                     At Mowana Hotel, we pride ourselves on providing a home away from home. With modern rooms, personalized service, and a central location in Egypt, we ensure a comfortable stay for all our guests. Whether you're visiting for work or relaxation, we’re here to make your experience unforgettable.
                 </motion.p>
                 <motion.img
@@ -64,7 +64,7 @@ export default function About() {
                         duration: 1,
                     }}
 
-                    className='md:w-5/12 rounded-4xl' src={img2}  alt="" />
+                    className='will-change-transform  will-change-opacity md:w-5/12 rounded-4xl' src={img2}  alt="" />
             </div>
         </section>
     </>)

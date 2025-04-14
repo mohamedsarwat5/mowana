@@ -16,7 +16,7 @@ export default function Contact() {
             initial={{ scale: .5, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}
             transition={{ duration: .5 }}
-            className="text-center font-bold font-[quando] uppercase text-mowana  text-4xl mb-8">contact us</motion.h2>
+            className="will-change-transform  will-change-opacity text-center font-bold font-[quando] uppercase text-mowana  text-4xl mb-8">contact us</motion.h2>
 
         <section className='mx-auto px-12 md:px-[120px] flex  flex-col-reverse lg:flex-row items-center gap-y-9  justify-between overflow-hidden py-8 bg-nav'>
 
@@ -27,7 +27,7 @@ export default function Contact() {
                 initial={{ x: 200, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: .5, ease: "easeIn" }}
-                className="max-w-2xl w-full flex flex-col ">
+                className="will-change-transform  will-change-opacity max-w-2xl w-full flex flex-col ">
                 <div className="mb-3">
                     <label className="block mb-2 text-sm font-medium text-mowana">Enter Your Name</label>
                     <input type="text" id="email" className="bg-white border border-gray-300 text-mowana text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5 " placeholder="" required />
@@ -50,6 +50,7 @@ export default function Contact() {
 
             <div>
                 <motion.img
+                    className='will-change-transform  will-change-opacity'
                     initial={{ x: -200, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{ duration: .5, ease: "easeIn" }}
