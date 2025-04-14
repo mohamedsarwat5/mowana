@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <>
 
-      <section className='font-[poppins] mx-auto px-12 md:px-[120px] py-10 overflow-hidden bg-gradient-to-t from-[#F2FF4D] to-[#F8FEAB] flex flex-col lg:flex-row justify-between items-center'>
+      {/* <section className='font-[poppins] mx-auto px-12 md:px-[120px] py-10 overflow-hidden bg-gradient-to-t from-[#F2FF4D] to-[#F8FEAB] flex flex-col lg:flex-row justify-between items-center'>
 
 
         <div className=' font-semibold text-2xl'>
@@ -28,7 +28,7 @@ export default function Footer() {
         </div>
 
 
-      </section>
+      </section> */}
       <div className='bg-green-900 w-full h-16 px-1 text-[#F2FF4D] text-center flex justify-center items-center'>
         © Copyright 2017 Mowana hotel - All Rights Reserved
       </div>
