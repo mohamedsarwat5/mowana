@@ -1,6 +1,6 @@
 import React from 'react'
 import { easeIn, motion } from "framer-motion";
-import img from "../../assets/images/logo1.png";
+import thank from "../../assets/images/thank.png";
 
 
 
@@ -17,7 +17,7 @@ export default function Contact() {
             transition={{ duration: .5 }}
             className="text-center font-bold font-[quando] uppercase text-mowana  text-4xl mb-8">contact us</motion.h2>
 
-        <section className='mx-auto px-12 md:px-[120px] flex  flex-col lg:flex-row items-center gap-y-4  justify-between overflow-hidden py-8 bg-nav'>
+        <section className='mx-auto px-12 md:px-[120px] flex  flex-col lg:flex-row items-center gap-y-9  justify-between overflow-hidden py-8 bg-nav'>
 
 
 
@@ -52,7 +52,7 @@ export default function Contact() {
                     initial={{ x: -200, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{ duration: .5, ease: "easeIn" }}
-                    src={img} alt="" />
+                    src={thank} alt="" />
             </div>
 
 
