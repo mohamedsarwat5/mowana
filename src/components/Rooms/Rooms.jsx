@@ -17,7 +17,7 @@ export default function Rooms() {
 
     <div className='h-32'></div>
 
-    <section className='md:px-[120px] overflow-hidden  mx-auto px-12 pb-8 overflow-hidden '>
+    <section className='md:px-[120px] overflow-hidden  mx-auto px-12 pb-8  '>
       <motion.h2
         initial={{ opacity: 0, scale: .5 }}
         whileInView={{ opacity: 1, scale: 1 }}
