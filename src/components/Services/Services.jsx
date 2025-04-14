@@ -67,7 +67,7 @@ export default function Services() {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: .5 }}
 
-            className="slider-container mx-auto  px-12 md:px-[120px] relative overflow-hidden">
+            className="slider-container mx-auto  px-12 md:px-[120px] relative overflow-hidden  ">
             <h2 className="text-center font-bold font-[quando] text-mowana text-4xl mb-8 uppercase">Our Services</h2>
             <Slider {...settings} className="custom-slider">
                 <div>

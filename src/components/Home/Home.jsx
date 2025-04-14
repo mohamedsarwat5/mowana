@@ -6,6 +6,7 @@ import Services from '../Services/Services'
 import Suites from '../Suites/Suites'
 import Btn from '../Btn/Btn'
 import { motion } from 'framer-motion'
+import Rooms from '../Rooms/Rooms'
 
 export default function Home() {
     return (
@@ -46,6 +47,7 @@ export default function Home() {
             <About></About>
             <Services></Services>
             <Suites></Suites>
+            <Rooms />
         </>
     )
 }

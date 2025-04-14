@@ -10,7 +10,7 @@ export default function About() {
         <Btn></Btn>
         <div className='h-32'></div>
 
-        <section className='  md:px-[120px] overflow-hidden flex flex-col  mx-auto  px-12'>
+        <section className='  md:px-[120px] overflow-hidden flex flex-col  mx-auto  px-12 pb-8 '>
             <motion.h2
                 initial={{ opacity: 0, scale: .5 }}
                 whileInView={{ opacity: 1, scale: 1 }}

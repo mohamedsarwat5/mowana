@@ -12,7 +12,7 @@ export default function Suites() {
         <Btn></Btn>
         <div className='h-32'></div>
 
-        <section className='mx-auto px-12 md:px-[120px] overflow-hidden'>
+        <section className='mx-auto px-12 md:px-[120px] overflow-hidden pb-8 '>
             <motion.h2
 
                 initial={{ x: 100, opacity: 0 }}
