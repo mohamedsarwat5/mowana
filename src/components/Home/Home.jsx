@@ -8,6 +8,7 @@ import Btn from '../Btn/Btn'
 import { motion } from 'framer-motion'
 import Rooms from '../Rooms/Rooms'
 import Book from '../Book/Book'
+import Contact from '../Contact/Contact'
 
 export default function Home() {
     return (
@@ -50,6 +51,7 @@ export default function Home() {
             <Suites></Suites>
             <Rooms />
             <Book></Book>
+            <Contact/>
         </>
     )
 }

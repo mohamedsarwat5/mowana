@@ -31,6 +31,10 @@ body {
 }
 
 
-span.spa:hover{
-background: #146C6C;
+span.spa:hover {
+  background: #146C6C;
+}
+
+button.btn:hover {
+  background: #05df72;
 }
