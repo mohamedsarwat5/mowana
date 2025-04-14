@@ -7,7 +7,9 @@ import Btn from '../Btn/Btn'
 export default function About() {
     return (<>
         <Btn></Btn>
-        <section className='  md:px-[120px]  flex flex-col  mx-auto my-20 p-12'>
+        <div className='h-32'></div>
+
+        <section className='  md:px-[120px]  flex flex-col  mx-auto  px-12'>
             <h2 className='text-center text-4xl text-mowana font-bold font-[Quando]  mb-10 uppercase'>About Us</h2>
             <div className='flex flex-col lg:flex-row items-center justify-between gap-5 md:gap-0'>
                 <img src={img1} className='md:w-5/12 rounded-4xl' alt="" />

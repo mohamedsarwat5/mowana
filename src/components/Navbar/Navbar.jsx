@@ -27,7 +27,7 @@ export default function Navbar() {
 
         <nav className="bg-nav opacity-80  fixed top-0  w-full z-50">
             <div className="max-w-screen-xl flex flex-wrap items-center  justify-between p-4 mx-auto px-4">
-                <Link><img to={'/'} src={logo} className='h-18' alt="" /></Link>
+                <Link><img to={'/'} src={logo} className='h-18 w-[180px]' alt="" /></Link>
                 <button onClick={handleNavBar} type="button" className=" text-mowana-green md:hidden">
                     <i className={`${isOpen? 'fa-xmark' : 'fa-bars'} fa-solid  text-[22px] text-mowana`}></i>
                 </button>

@@ -6,8 +6,10 @@ import s4 from '../../assets/images/s4.png'
 import Btn from '../Btn/Btn'
 export default function Suites() {
     return (<>
-    <Btn></Btn>
-        <section className='mx-auto my-20 p-12 md:px-[120px]'>
+        <Btn></Btn>
+        <div className='h-32'></div>
+
+        <section className='mx-autopx-12 md:px-[120px]'>
             <h2 className="text-center font-bold font-[quando] capitalize text-mowana text-4xl mb-8">SUITES</h2>
 
             <div className='flex flex-col md:flex-row  justify-between gap-4 '>
@@ -29,5 +31,5 @@ export default function Suites() {
             </div >
 
         </section>
-        </>  )
+    </>)
 }
