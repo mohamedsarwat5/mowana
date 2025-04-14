@@ -16,7 +16,7 @@ export default function About() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: .5 }}
                 className='text-center text-4xl text-mowana font-bold font-[Quando]  mb-10 uppercase'>About Us</motion.h2>
-            <div className='flex flex-col lg:flex-row items-center justify-between gap-5 md:gap-0'>
+            <div className='flex flex-col md:flex-row items-center justify-between gap-5 lg:gap-0'>
                 <motion.img
                     initial={{ x: 100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
@@ -41,7 +41,7 @@ export default function About() {
                     Welcome to Mowana Hotel, where comfort meets convenience. Located in the heart of Egypt, we offer a relaxing and memorable stay with top-notch amenities, exceptional service, and a warm, inviting atmosphere. Whether you're here for business or leisure, our friendly staff is dedicated to making your visit enjoyable and stress-free.
                 </motion.p>
             </div>
-            <div className='flex flex-col-reverse lg:flex-row items-center mt-14 justify-between gap-5 md:gap-0'>
+            <div className='flex flex-col-reverse md:flex-row items-center mt-14 justify-between gap-5 lg:gap-0'>
                 <motion.p
                     initial={{ x: -100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}

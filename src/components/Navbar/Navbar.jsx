@@ -26,13 +26,13 @@ export default function Navbar() {
 
 
         <nav className="bg-nav opacity-80  fixed top-0  w-full z-50">
-            <div className="max-w-screen-xl flex flex-wrap items-center  justify-between p-4 mx-auto px-4">
+            <div className="max-w-screen-xl flex flex-wrap items-center  justify-between p-4 mx-auto px-6">
                 <Link><img to={'/'} src={logo} className='h-18 w-[180px]' alt="" /></Link>
-                <button onClick={handleNavBar} type="button" className=" text-mowana-green md:hidden">
+                <button onClick={handleNavBar} type="button" className=" text-mowana-green lg:hidden">
                     <i className={`${isOpen? 'fa-xmark' : 'fa-bars'} fa-solid  text-[22px] text-mowana`}></i>
                 </button>
 
-                <div className={`${isOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`}>
+                <div className={`${isOpen ? 'block' : 'hidden'} w-full lg:block md:w-auto`}>
                     <ul className="font-medium text-center flex flex-col md:flex-row p-4 md:p-0 mt-4  gap-9  md:mt-0">
                         <li>
                             <NavLink to={'/'}   onClick={() => setIsOpen(false)} className={`font-[poppins] py-2 text-mowana  cursor-pointer`}>Home</NavLink>
