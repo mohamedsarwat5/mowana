@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 
 export default function About() {
     return (<>
-        <Btn></Btn>
+        {/* <Btn></Btn> */}
         <div className='h-32'></div>
 
         <section className='  md:px-[120px] overflow-hidden flex flex-col  mx-auto  px-12 pb-8 '>

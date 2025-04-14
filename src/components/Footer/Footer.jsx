@@ -29,7 +29,7 @@ export default function Footer() {
 
 
       </section> */}
-      <div className='bg-green-900 w-full h-16 px-1 text-[#F2FF4D] text-center flex justify-center items-center'>
+      <div className='bg-green-900 w-full h-16 px-1 text-[#F2FF4D] text-center flex justify-center items-center '>
         © Copyright 2017 Mowana hotel - All Rights Reserved
       </div>
 

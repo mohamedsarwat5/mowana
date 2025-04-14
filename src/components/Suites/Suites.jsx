@@ -9,7 +9,7 @@ import { motion } from 'framer-motion'
 
 export default function Suites() {
     return (<>
-        <Btn></Btn>
+        {/* <Btn></Btn> */}
         <div className='h-32'></div>
 
         <section className='mx-auto px-12 md:px-[120px]  overflow-hidden pb-8 '>
