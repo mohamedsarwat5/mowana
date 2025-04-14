@@ -11,6 +11,7 @@ import Lounge from '../../assets/images/Lounge.jpg'
 import Terrace from '../../assets/images/Terrace.jpg'
 import Sauna from '../../assets/images/Sauna.jpg'
 import Btn from "../Btn/Btn";
+import { motion } from 'framer-motion'
 
 
 
@@ -58,10 +59,15 @@ export default function Services() {
         ]
     }
     return (<>
-    <Btn></Btn>
-    <div className='h-32'></div>
+        <Btn></Btn>
+        <div className='h-32'></div>
 
-        <div className="slider-container mx-auto  px-12 md:px-[120px] relative">
+        <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: .5 }}
+
+            className="slider-container mx-auto  px-12 md:px-[120px] relative">
             <h2 className="text-center font-bold font-[quando] text-mowana text-4xl mb-8 uppercase">Our Services</h2>
             <Slider {...settings} className="custom-slider">
                 <div>
@@ -105,6 +111,6 @@ export default function Services() {
             <div className="w-full md:w-8/12 mx-auto mt-20 text-center text-[20px] text-mowana">
                 <p className="">At Mowana Hotel, we offer premium services for your comfort and relaxation — from spa treatments and soothing saunas to serene terraces, elegant lounges, and expert massages. Daily housekeeping ensures a clean, welcoming stay tailored to your every need.</p>
             </div>
-        </div>
+        </motion.div>
     </>);
 }
