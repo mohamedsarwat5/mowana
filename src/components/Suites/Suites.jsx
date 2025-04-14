@@ -54,7 +54,7 @@ export default function Suites() {
                         initial={{ opacity: 0, scale: .5 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         transition={{ duration: .6, ease: 'easeInOut' }}
-                        src={s4} loading='lazy' className=' rounded-4xl s3 w-full !lg:w-[500px] lg:!h-[550px] object-cover' alt="" />
+                        src={s4} loading='lazy' className=' rounded-4xl s3 lg:w-[500px] lg:!h-[550px] object-cover' alt="" />
                 </div>
 
             </div >
