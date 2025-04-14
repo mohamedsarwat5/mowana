@@ -11,7 +11,7 @@ export default function Home() {
     return (
         <>
             <Btn></Btn>
-            <div className='h-32'></div>
+            <div className='h-36'></div>
 
             <section className='flex md:flex-row flex-col-reverse items-center px-10 md:px-[120px]     gap-14'>
 
