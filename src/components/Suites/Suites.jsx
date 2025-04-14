@@ -33,19 +33,19 @@ export default function Suites() {
                             initial={{ opacity: 0, scale: .5 }}
                             whileInView={{ opacity: 1, scale: 1 }}
                             transition={{ duration: .6, ease: 'easeInOut' }}
-                            src={s1} className='md:w-6/12 rounded-4xl object-cover' alt="" />
+                            src={s1} className='md:w-6/12 rounded-4xl object-cover' loading='lazy' alt="" />
                         <motion.img
                             initial={{ opacity: 0, scale: .5 }}
                             whileInView={{ opacity: 1, scale: 1 }}
                             transition={{ duration: .6, ease: 'easeInOut' }}
-                            src={s2} className='md:w-6/12 rounded-4xl' alt="" />
+                            src={s2} className='md:w-6/12 rounded-4xl' loading='lazy' alt="" />
                     </div>
                     <div className='md:w-12/12 flex '>
                         <motion.img
                             initial={{ opacity: 0, scale: .5 }}
                             whileInView={{ opacity: 1, scale: 1 }}
                             transition={{ duration: .6, ease: 'easeInOut' }}
-                            src={s3} className=' relative md:left-2 w-12/12 h-72 object-cover mx-auto rounded-4xl' alt="" />
+                            src={s3} loading='lazy' className=' relative md:left-2 w-12/12 h-72 object-cover mx-auto rounded-4xl' alt="" />
                     </div>
                 </div>
 
@@ -54,7 +54,7 @@ export default function Suites() {
                         initial={{ opacity: 0, scale: .5 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         transition={{ duration: .6, ease: 'easeInOut' }}
-                        src={s4} className='rounded-4xl s3 w-[500px] object-top' alt="" />
+                        src={s4} loading='lazy' className='rounded-4xl s3 w-[500px] object-top' alt="" />
                 </div>
 
             </div >

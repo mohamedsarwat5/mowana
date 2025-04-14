@@ -26,7 +26,7 @@ export default function About() {
                         ease: 'easeIn',
                         duration: 1,
                     }}
-                    src={img1} className='md:w-5/12 rounded-4xl' alt="" />
+                    src={img1} className='md:w-5/12 rounded-4xl' loading='lazy' alt="" />
                 <motion.p
                     initial={{ x: -100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
@@ -64,7 +64,7 @@ export default function About() {
                         duration: 1,
                     }}
 
-                    className='md:w-5/12 rounded-4xl' src={img2} alt="" />
+                    className='md:w-5/12 rounded-4xl' src={img2} loading='lazy' alt="" />
             </div>
         </section>
     </>)

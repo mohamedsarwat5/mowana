@@ -39,7 +39,7 @@ export default function Home() {
                             ease: 'easeIn',
                             duration: 1,
                         }}
-                        src={photo} />
+                        src={photo} loading='lazy' />
                 </div>
             </section>
 

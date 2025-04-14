@@ -71,39 +71,39 @@ export default function Services() {
             <h2 className="text-center font-bold font-[quando] text-mowana text-4xl mb-8 uppercase">Our Services</h2>
             <Slider {...settings} className="custom-slider">
                 <div>
-                    <img src={spa} className="h-48 w-72 mx-auto rounded-4xl object-cover object-top" alt="" />
+                    <img loading='lazy'  src={spa} className="h-48 w-72 mx-auto rounded-4xl object-cover object-top" alt="" />
                     <h3 className="font-[poppins] text-mowana-green text-center">Spa</h3>
                 </div>
                 <div>
-                    <img src={Jacuzzi} className="h-48 w-72 mb-3 mx-auto rounded-4xl  object-cover object-top" alt="" />
+                    <img loading='lazy' src={Jacuzzi} className="h-48 w-72 mb-3 mx-auto rounded-4xl  object-cover object-top" alt="" />
                     <h3 className="font-[poppins] text-mowana-green text-center">Jacuzzi</h3>
                 </div>
                 <div>
-                    <img src={Housekeeping} className="h-48 w-72 mb-3 mx-auto rounded-4xl  object-cover object-top" alt="" />
+                    <img loading='lazy' src={Housekeeping} className="h-48 w-72 mb-3 mx-auto rounded-4xl  object-cover object-top" alt="" />
                     <h3 className="font-[poppins] text-mowana-green text-center">Housekeeping</h3>
                 </div>
                 <div>
-                    <img src={pool} className="h-48 w-72 mb-3 mx-auto rounded-4xl  object-cover object-center" alt="" />
+                    <img loading='lazy' src={pool} className="h-48 w-72 mb-3 mx-auto rounded-4xl  object-cover object-center" alt="" />
                     <h3 className="font-[poppins] text-mowana-green text-center">Pool</h3>
                 </div>
                 <div>
-                    <img src={gym} className="h-48 w-72 mb-3 mx-auto rounded-4xl  object-cover object-top" alt="" />
+                    <img loading='lazy' src={gym} className="h-48 w-72 mb-3 mx-auto rounded-4xl  object-cover object-top" alt="" />
                     <h3 className="font-[poppins] text-mowana-green text-center">Gym</h3>
                 </div>
                 <div>
-                    <img src={Massage} className="h-48 w-72 mb-3 mx-auto rounded-4xl  object-cover object-top" alt="" />
+                    <img loading='lazy' src={Massage} className="h-48 w-72 mb-3 mx-auto rounded-4xl  object-cover object-top" alt="" />
                     <h3 className="font-[poppins] text-mowana-green text-center">Massage</h3>
                 </div>
                 <div>
-                    <img src={Terrace} className="h-48 w-72 mb-3 mx-auto rounded-4xl  object-cover object-top" alt="" />
+                    <img loading='lazy' src={Terrace} className="h-48 w-72 mb-3 mx-auto rounded-4xl  object-cover object-top" alt="" />
                     <h3 className="font-[poppins] text-mowana-green text-center">Terrace</h3>
                 </div>
                 <div>
-                    <img src={Lounge} className="h-48 w-72 mb-3 mx-auto rounded-4xl  object-cover object-top" alt="" />
+                    <img loading='lazy' src={Lounge} className="h-48 w-72 mb-3 mx-auto rounded-4xl  object-cover object-top" alt="" />
                     <h3 className="font-[poppins] text-mowana-green text-center">Lounge</h3>
                 </div>
                 <div>
-                    <img src={Sauna} className="h-48 w-72 mb-3 mx-auto rounded-4xl  object-cover object-top" alt="" />
+                    <img loading='lazy' src={Sauna} className="h-48 w-72 mb-3 mx-auto rounded-4xl  object-cover object-top" alt="" />
                     <h3 className="font-[poppins] text-mowana-green text-center">Sauna</h3>
                 </div>
             </Slider>
