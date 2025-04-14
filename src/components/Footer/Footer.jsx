@@ -10,7 +10,7 @@ export default function Footer() {
       <section className='font-[poppins] mx-auto px-12 md:px-[120px] py-10 overflow-hidden bg-gradient-to-t from-[#F2FF4D] to-[#F8FEAB] flex flex-col lg:flex-row justify-between items-center'>
 
 
-        <div className='text-mowana font-semibold text-2xl'>
+        <div className=' font-semibold text-2xl'>
           <p>Phone Support</p>
           <span>+20 123 456 789</span>
         </div>
