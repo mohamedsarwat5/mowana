@@ -13,9 +13,6 @@
   --color-mowana-light: #146C6C;
 }
 
-body {
-  background-image: url("assets/images/light-patten.svg");
-}
 
 .active {
   color: #146C6C;
@@ -37,4 +34,16 @@ span.spa:hover {
 
 button.btn:hover {
   background: #05df72;
+}
+
+div.btn{
+  border: 1px solid;
+  transition: .3s all;
+  margin-top: 29px;
+}
+
+div.btn:hover {
+  background: #146C6C;
+  cursor: pointer;
+  color: white;
 }

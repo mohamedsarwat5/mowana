@@ -46,6 +46,11 @@ export default function Home() {
                         src={photo} loading='lazy' />
                 </div>
             </section>
+            <div
+
+                className='text-center py-3  rounded-2xl btn border-mowana text-mowana w-8/12 mx-auto' >
+                <span className=''>Search</span>
+            </div>
 
             <About></About>
             <Services></Services>
