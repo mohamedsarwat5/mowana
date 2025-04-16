@@ -9,6 +9,7 @@ import { motion } from 'framer-motion'
 import Rooms from '../Rooms/Rooms'
 import Book from '../Book/Book'
 import Contact from '../Contact/Contact'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
     return (
@@ -30,6 +31,7 @@ export default function Home() {
                     className='will-change-transform  will-change-opacity w-full md:w-4/12 flex flex-col gap-5 md:gap-8'>
                     <h2 className='font-[quando] font-bold text-mowana md:text-4xl text-2xl'> <span className=' text-4xl lg:text-6xl'>Mowana</span> Where Luxury Meets..</h2>
                     <p className='font-[poppins] lg:text-3xl text-2xl'>Tranquility in the heart of breathtaking nature..</p>
+                    <Link to={'/contact'} className='text-center  bg-orbtn py-3 w-5/12 rounded-2xl hover:opacity-70 duration-150 cursor-pointer mx-auto'>Book now</Link>
                 </motion.div>
 
                 <div className=' w-full md:w-8/12  '>
