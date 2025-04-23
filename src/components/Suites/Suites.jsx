@@ -33,19 +33,19 @@ export default function Suites() {
                             initial={{ opacity: 0, scale: .5 }}
                             whileInView={{ opacity: 1, scale: 1 }}
                             transition={{ duration: .6, ease: 'easeInOut' }}
-                            src={s1} className='will-change-transform  will-change-opacity lg:w-6/12 rounded-4xl object-cover ' loading='lazy' alt="" />
+                            src={s1} className='will-change-transform  will-change-opacity lg:w-6/12 rounded-4xl object-cover ' z alt="" />
                         <motion.img
                             initial={{ opacity: 0, scale: .5 }}
                             whileInView={{ opacity: 1, scale: 1 }}
                             transition={{ duration: .6, ease: 'easeInOut' }}
-                            src={s2} className='lg:w-6/12 rounded-4xl ' loading='lazy' alt="" />
+                            src={s2} className='lg:w-6/12 rounded-4xl ' z alt="" />
                     </div>
                     <div className='md:w-12/12 flex '>
                         <motion.img
                             initial={{ opacity: 0, scale: .5 }}
                             whileInView={{ opacity: 1, scale: 1 }}
                             transition={{ duration: .6, ease: 'easeInOut' }}
-                            src={s3} loading='lazy' className='will-change-transform  will-change-opacity relative lg:left-2 w-12/12 h-72 object-cover mx-auto rounded-4xl' alt="" />
+                            src={s3} z className='will-change-transform  will-change-opacity relative lg:left-2 w-12/12 h-72 object-cover mx-auto rounded-4xl' alt="" />
                     </div>
                 </div>
 
@@ -54,7 +54,7 @@ export default function Suites() {
                         initial={{ opacity: 0, scale: .5 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         transition={{ duration: .6, ease: 'easeInOut' }}
-                        src={s4} loading='lazy' className='will-change-transform  will-change-opacity rounded-4xl s3 lg:w-[500px] lg:!h-[550px] object-cover' alt="" />
+                        src={s4} z className='will-change-transform  will-change-opacity rounded-4xl s3 lg:w-[500px] lg:!h-[550px] object-cover' alt="" />
                 </div>
 
             </div >
